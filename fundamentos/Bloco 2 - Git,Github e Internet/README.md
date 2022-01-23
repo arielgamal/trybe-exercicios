@@ -1,1 +1,1 @@
-Esses são os exercícios do BLOCO 2
+Esses são os exercícios do BLOCO 2 - Git & GitHub
