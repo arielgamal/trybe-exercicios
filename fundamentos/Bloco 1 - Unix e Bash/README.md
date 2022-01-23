@@ -2,7 +2,7 @@
 
 [X] Introdução Unix & Shell :white_check_mark:
 
-[ ] Unix & Bash PT1  :hourglass_flowing_sand:
+[X] Unix & Bash PT1  :white_check_mark:
 
 [ ] Unix & Bash PT2 :hourglass_flowing_sand:
 

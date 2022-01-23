@@ -1,0 +1,178 @@
+COMANDOS AULA 1
+
+
+VIDEO 2 (TRABALHANDO COM DIRETORIOS)
+1- INICIALIZAR O BASH
+
+ctrl + alt + t
+
+2- ENTRAR NO DIRETÓRIO RAIZ DO COMPUTADOR.
+
+cd /
+
+COMANDO ls (list)
+
+ls - Ele lista todos os arquivos e diretórios dentro daquele diretório
+ls -a Mostra alguns arquivos a mais, mostrando os arquivos ocultos
+ls -l
+
+COMANDO cd (change directory)
+
+cd altera o diretório que vc está
+cd . Mostra o proprio diretório em que vc está
+cd .. Ele vai retornar para o diretorio pai (diretorio anterior a ele).
+
+
+OBS: Apertar tab completa o que voce está escrevendo para auxiliar e não precisar escrever.
+
+
+COMANDO clear (limpar)
+
+clear - limpa a tela para não aparecer muita informação
+
+
+COMANDO mkdir (make directory)
+
+mkdir <nomedodiretorio> Cria uma pasta
+
+COMANDO pwd
+
+pwd - Mostra para gente o diretório completo que vc está
+exemplos: /home/ariel
+	  /home/ariel/Trybe-exercicios
+
+
+COMANDO touch
+
+touch - cria arquivos (até agora só consegui com .txt e README.md)
+
+
+VIDEO 3 (OPERAÇOES COM ARQUIVOS E DIRETÓRIOS)
+
+COMANDO CP (copy)
+
+cp pode copiar um arquivo
+
+exemplo: cp arquivo1.txt arquivo2.txt  (esse comando vai copiar, criar outro igual no mesmo diretório).
+
+
+COMANDO cat (concatenate)
+
+cat => Tem varias funçoes, uma dela é mostrar o conteúdo de dentro do arquivo.
+
+COMANDO mv (move)
+
+mv move o arquivo de um lugar para outro
+
+exemplo: mv arquivo2.txt /Users/Ariel/Music   (esse comando vai mover para o diretório de escolha).
+
+COMANDO rm (remove)
+
+rm - Remove o arquivo de esolha
+
+exemplo: rm arquivo2.txt
+
+COMANDO rmdir (remove directory)
+
+rmdir <nomedodiretorio> Apaga uma pasta (só funciona caso o diretório esteja vazio).
+
+rm -rf <nomedodiretorio> Nesse caso apaga um arquivo, inclusive pasta com conteúdos dentro.
+ 
+
+VIDEO 4 (EXIBINDO CONTEÚDOS DE ARQUIVOS NO TERMINAL)
+
+COMANDO less
+
+less - vai mostrar partes do conteúdo do arquivo por página
+
+(barra de espaço; vai mostrar a proxima pagina em um modo de exibição e apertando Q, vai finalizar o modo de exibição do less).
+
+less te permite procurar alguma paravra dentro do modo de exibição
+
+COMANDO head
+
+head - Vai mostrar as 10 primeiras linhas.
+head -5 - Vai mostar os 5 primeiros valores
+(obs: vc pode escolher o número de linhas a serem apresentadas).
+
+COMANDO tail
+
+tail -  Vai mostrar as 10 ultimas linhas.
+tail -5 - Vai mostar os 5 primeiros valores
+(obs: vc pode escolher o número de linhas a serem apresentadas).
+
+COMANDO grep
+
+grep - Faz buscas dentro de um arquivo (é case sensitive)
+grep -i Faz buscas dentro de um arquivo, ignorando se é maiusculo ou minusculo
+grep -i Faz busca por frases se colocar dentro de aspas simples
+
+exemplo grep -1  "o poderoso chefão"
+
+grep -iv Faz buscas que NÃO correspondem com a busca, ou seja, encontra tudo menos a frase digitada.
+grep -in Faz buscas por frases ou palavras dentro do arquivo e mostra a linha onde ela se encontra.
+grep -ic Mostra quantas vezes a palavra de escolha aparece dentro de um arquivo.
+
+COMANDO wc (word count)
+
+wc - Mostra 3 valores diferentes; 1- Quantidade de linhas 2- Quantidade de palavras 3- Quantidade de caracteres
+wc -l Mostra a quantidade de linhas
+wc -w Mostra a quantidade de palavras
+wc -c Mostra a quantidade de caracteres
+
+VIDEO 5  USO DE WILDCARDS (CURINGAS)
+
+ls *  - Mostra TUDO dentro de um diretorio
+
+É possível substituir o primeiro caractere de um arquivo com o ponto de interrogração
+ls ?
+
+Para se criar um arquivo é preciso que eles fiquem juntos palavra por palavra, se quiser colocar uma frase tem que usar '(aspas únicas) ou "(aspas duplas).
+
+exemplo : arquivo1.txt arquivo-1.txt arquivo_1.txt ou 'arquivo 1'.txt ou "arquivo 1".txt
+
+COMANDO man (manual)
+
+ls man - mostra o manual do comando ls
+cd man - mostra o manual do comando cd
+(pode ser usado em qualquer comando)
+
+COMANDO whatis (o que é?)
+
+whatis - Mostra o que aquele comando faz (pode ser usado em qualquer comando)
+whatis ls
+whatis cd
+
+COMANDO apropos
+
+apropos copy - ele vai mostrar todos os comando qque envolvam algum tipo de copia
+Ajuda a encontrar comandos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

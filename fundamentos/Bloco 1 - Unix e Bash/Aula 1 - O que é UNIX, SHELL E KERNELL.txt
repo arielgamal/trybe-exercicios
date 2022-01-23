@@ -1,0 +1,108 @@
+VIDEO 1 O que é Unix, Shell e Kernel?
+
+O que é Unix, Shell e Kernel?
+
+Unix é o pai dos sistemas operacionais =D
+
+Surgiu o embriao do unix, desenvolvido por KEN THOMPSON E DENNIS RITCHIE, utilizando a lingaguem
+de programação C .
+
+Suporte a multiusuários
+Multitarefas
+e tem Portabilidade (pode ser utilizado em diversos sistemas operacionais).
+
+Muitos sistemas operacionais são baseados no unix, por exemplo linux e o macOS.
+
+
+O unix é montado em 3 niveis
+
+1- Kernel
+ O kernel é responsável por fazer a interação entre o Softaware e o Hardware.
+ Ele começa a funcionar assim que o computador é ligado.
+ 
+Ele gerencia a memória, os processos e os arquivos.
+
+2- Shell ou Bash
+ É a interface entre o sistema operacional, o usuário e o núcleo do sistema. (Sistema operacional,
+ usuário e o Kernel).
+ É a tela preta!
+ Eles usam
+ - Interface de linha de comando
+  	ou
+ - Interface Gráfica
+ 
+ A função do shell é:
+ 
+ 1- Ler a linha de comando
+ 2- Interpretar seu significado
+ 3- Executar o comando
+ 4- Devolver o resultado
+ 
+ Tipos de shell
+ SH
+ BASH
+ CSH
+ TCSH
+ ZSH
+ 
+ 3- Aplicativos
+ Nessa camada ou nível se encaixam os softwares que os usuários podem utilizar e a maiorida dos
+ comando do UNIX.
+ 
+ Importante no Unix
+ 
+ - Processos
+ - Arquivos
+ 
+ - Tudo que é feito no Unix é um processo; Cada fez que é executado uma tarefa ou um comando, ela é interpretada pelo unix como um processo.
+ Cada processo tem um identificado único chamado PID (process identifier)
+ 
+ O PID CARREGA ALGUMAS INFORMAÇOES
+  Usuário proprietário do processo
+  Sessão do Shell
+  Estado atual : Se está funcionando, suspenso ou aguardando.
+  Linha de comando utilizada
+  Dentre outros...
+  
+- Arquivos no únix tudo é arquivo, diretórios são arquivos, arquivos são arquivos, dispositivos são
+arquivos.
+
+O sistema de arquivos é organizado por uma hierarquia de raiz
+/ ou Root (arquivo nível mais alto)
+Todos os outros arquivos e diretório existem debaixo do diretorio Root
+
+Cada arquivo possui uma série de informaçoes
+-Tipo
+-Permissoes
+-Dono
+-Grupo
+-Tamanho
+-Data e hora da ultima modificaçao
+-Nome
+
+Hierarquia de arquivos no Hoot
+/ Raiz
+BOOT
+BIN
+DEV
+ETC
+HOME
+PROC
+ROOT
+SBIN
+TMP
+USR
+VAR
+
+
+COMANDO PARA ABRIR O TERMINAL crtl + alt + t
+
+Entrar no diretório raiz no terminal apertando cd /
+
+
+
+
+  
+ 
+ 
+ 
