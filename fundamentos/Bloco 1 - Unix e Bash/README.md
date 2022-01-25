@@ -7,3 +7,5 @@
 [ ] Unix & Bash PT2 :hourglass_flowing_sand:
 
 _[Ariel Gamal](https://www.linkedin.com/in/arielgamal/)_ 
+
+No proximo bloco irei aprender sobre Git e GitHub.
