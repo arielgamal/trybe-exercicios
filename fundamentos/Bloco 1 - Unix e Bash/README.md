@@ -4,8 +4,11 @@
 
 [X] Unix & Bash PT1  :white_check_mark:
 
-[ ] Unix & Bash PT2 :hourglass_flowing_sand:
+[X] Unix & Bash PT2 :white_check_mark:
 
-_[Ariel Gamal](https://www.linkedin.com/in/arielgamal/)_ 
+COMPLETO !
+
+_[Ariel Gamal](https://www.linkedin.com/in/arielgamal/)
 
 No proximo bloco irei aprender sobre Git e GitHub.
+
