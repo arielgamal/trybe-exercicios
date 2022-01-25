@@ -1,0 +1,42 @@
+O QUE E INTERNET? Entendendo como ela funciona.
+
+O que é a nuvem?
+Galpoes com MUITO computadores, elas estao em um lugar físico em varios lugares no mundo, uma sala geladinha ^^
+
+
+
+DNS
+Domain Name System (Sistema de nomes de domínio).
+Domain.com -> IP 216.3.128.12
+Mas gravar números é muito mais dificil, cada dominio tem um IP, mas pelo nome é mais facil de gravarmos.
+
+O DNS é usado para relacionar o endereço nominal (google.com) com o endereço IP. Os servidores DNS são responsáveis por localizar e traduzir para números (um endereço IP) as buscas por sites que digitamos no navegador.
+
+Códigos legais no terminal
+
+ping <algum site que vc quiser colocar>
+Vai mostrar o tempo de resposta, "cutucar" o endereço para saber se ele está la.
+
+traceroute 
+ver por onde os dados estão passando até chegar em algum ponto.
+
+exitlag - Promete descobrir qual é a menor rota da sua maquina até o servidor onde está o jogo, e consegue forcar que seus dados facam essa rota menor.
+
+lslookup <endereco url>
+
+
+
+Protocolos de comunicação
+Comunicação tem que ser feita da melhor forma possĩvel para que não ocorra falhas.
+O meio é por onde os dados irão passar, eles são codificados e alguém decodifica e depois a informação é mandada.
+
+Modelos de protocolo de comunicação
+
+Uma delas é o modelo TCP/IP  : https://pt.wikipedia.org/wiki/TCP/IP  (texto sobre).
+
+
+
+
+
+
+
