@@ -9,3 +9,6 @@
 COMPLETO !
 
 _[Ariel Gamal](https://www.linkedin.com/in/arielgamal/)
+
+No proximo bloco irei aprender sobre Git e GitHub.
+
