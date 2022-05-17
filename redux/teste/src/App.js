@@ -1,9 +1,14 @@
 import React from "react";
 import "./App.css";
 import { connect } from 'react-redux';
-import { addOne, minusOne } from "./redux/actions";
+import { addOne, fetchCategories, minusOne } from "./redux/actions";
 
 class App extends React.Component {
+  componentDidMount() {
+    const { fetch } = this.props;
+    fetch();
+  }
+
   render() {
     const { counter, addOne, minusOne } = this.props;
     return (
@@ -21,7 +26,10 @@ const mapStateToProps = store => ({
 
 const mapDispatchToProps = (dispatch) => ({
   addOne: (state) => dispatch(addOne(state)),
-  minusOne: (state) => dispatch(minusOne(state))
+  minusOne: (state) => dispatch(minusOne(state)),
+  fetch: (categories) => dispatch(fetchCategories(categories)),
+  //aqui no fetch eu alterei de state para categories no parametro da função só para ficar mais de acordo com o que
+  //estamos fazendo, ja que é uma requisição para pegar uma categoria, colocamos o nome do parametro de categoria;
 }); 
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
